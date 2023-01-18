@@ -8,4 +8,12 @@ const reverseString= (str) =>{
    return st;
 }
 
+const reverseNew= (str) =>{
+    console.log(str.split(''))
+    console.log(str.split('').reverse())
+    console.log(str.split('').reverse().join(''))
+   return str.split('').reverse().join('');
+}
+
 console.log(reverseString("rajtilak"));
+console.log(reverseNew("rajtilak"));
