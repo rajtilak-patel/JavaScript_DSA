@@ -38,3 +38,29 @@ const output = arr.reduce((acc,curr)=>{
 })
 
 console.log(output);
+
+const obj = [
+
+    {
+        Fname:"rajtilak",
+        Lname:"patel",
+        age:22
+    },
+    {
+        Fname:"raja",
+        Lname:"patel",
+        age:20
+    },
+    {
+        Fname:"raj",
+        Lname:"patel",
+        age:21
+    },
+]
+
+
+const getData = obj.map((arr)=>{
+           return (arr.Fname +" "+ arr.Lname);
+})
+
+console.log(getData);
