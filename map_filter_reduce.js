@@ -6,4 +6,4 @@ const output = arr.map((x)=>{
     return x*2;
 })
 
-console.log(output.toString().split(" ").join());
+console.log(output);
