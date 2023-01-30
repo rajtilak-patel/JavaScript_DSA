@@ -11,8 +11,30 @@ const arr = [5,1,3,2,6];
 
 // filter - filter is to use filter a function for sum condition;
 
-const output = arr.filter(function(x){
-     return x>3;
+// const output = arr.filter(function(x){
+//      return x>3;
+// })
+
+// console.log(output);
+
+// Reduce :- reduce is a function to pass the to argument and return the single value like sum of all array , maximun and minumum find;
+
+// normal function without reducer function
+
+const ans = (arr)=>{
+      let sum = 0;
+      for (let index = 0; index < arr.length; index++) {
+         sum = sum +arr[index];
+      }
+      return sum;
+}
+
+
+console.log(ans(arr));
+
+
+const output = arr.reduce((acc,curr)=>{
+    return acc+curr;
 })
 
 console.log(output);
