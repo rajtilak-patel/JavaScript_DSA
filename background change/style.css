@@ -1,0 +1,16 @@
+.container{
+    margin: auto;
+    margin-top: 40vh;
+    width: 20%;
+}
+body{
+    background-color: green;
+}
+button{
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    background-color: aqua;
+    cursor: pointer;
+    border-radius: 10px
+}
