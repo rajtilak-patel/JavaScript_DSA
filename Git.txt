@@ -1,0 +1,12 @@
+Git commands most of the time uses
+
+Git Config: This Git command configures the username and email address.
+Git inits: This Git command is used to initialize a local Git repository.
+Git Add: This Git command adds one or more files to the staging area.
+Git Diff: This Git command is used to view the changes made to the file.
+Git Commit: This Git command makes changes to the head but not to the remote repository.
+Git reset: This Git command is used to undo local changes to the state of a Git repo.
+Git Status: This Git command displays the state of the working directory and staging area.
+Git Merge: This Git command merges a branch into an active branch.
+Git Push: This Git command uploads content from the local repository to a remote repository.
+Git Pull: This Git command is used to fetch and download content from a remote repository.
