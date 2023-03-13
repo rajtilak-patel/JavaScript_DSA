@@ -1,13 +1,10 @@
-var x = 100;
 
-function alpha(){
-    var x = 200;
-
-    function beta(){
-        console.log(x);
+function alpha(x){
+    var y = x*10;
+    function val(z){
+        console.log(x , y ,z);
     }
-    return beta;
+    val(y*5);
 }
 
-var gama = alpha();
-gama();
+alpha(3);
